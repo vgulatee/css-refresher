@@ -1,0 +1,25 @@
+.header{
+    height: 95vh;
+    background-image: linear-gradient(to right bottom, rgba($color-primary-light, 0.8),  rgba($color-primary-dark, 0.8)), url(../img/hero.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative; /*Position Relative, inherited by child parents*/
+
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); /*1st Param: Upper-left corner (path starts); 2nd Param: Upper Right corner; 3rd Param: Lower left corner (driving path across 75% of the viewport height); 4th Param: Lower right corner*/
+
+    &__logo-box{
+        position: absolute;
+        top: 40px;
+        left: 40px;
+    }
+    &__logo{
+        height: 35px;
+    }
+    &__text-box{
+        position: absolute;
+        top:40%;
+        left: 50%;
+        transform: translate(-50%, -50%); /*Translate -50% by the components height and width*/
+        text-align: center;
+    }
+}

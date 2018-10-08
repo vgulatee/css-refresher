@@ -1,0 +1,120 @@
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/animations";
+@import "base/base";
+@import "base/utilities";
+@import "base/typography";
+
+@import "layout/header";
+@import "layout/grid";
+
+
+@import "components/button";
+@import "components/composition";
+
+@import "pages/home";
+
+// .header__logo-box {
+//     position: absolute;  //Moved in header
+//     top: 40px;
+//     left: 40px;
+// }
+
+// .header__logo{
+//     height: 35px;  //Moved in header   //Moved in header 
+// }
+
+/* .logo:hover{
+    animation-name: stageRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;    //Don't need
+} */
+
+// .header__text-box{
+//     position: absolute;
+//     top:40%;
+//     left: 50%; 
+//     transform: translate(-50%, -50%); /*Translate -50% by the components height and width*/ //Moved in header 
+//     text-align: center;
+// }
+
+
+// .heading-primary--main{
+//     display: block; /* Block makes it easuer to size shit
+// */
+//     font-size: 60px;
+//     font-weight: 400;
+//     letter-spacing: 35px;     //Moved to heading-primary 
+
+//     animation-name: stageLeft;
+//     animation-duration: 1s;
+//     animation-timing-function: ease-out;
+
+
+// }
+// .heading-primary--sub{
+//     display: block;
+//     font-size: 20px;
+//     font-weight: 700;      //Moved to heading-primary 
+//     letter-spacing: 17.4px;
+
+//     animation-name: stageRight;
+//     animation-duration: 1s;
+//     animation-timing-function: ease-out;
+// }
+
+
+// .btn:link, 
+// .btn:visited {
+//    text-transform: uppercase;
+//    text-decoration: none;
+//    padding: 15px 45px;
+//    display: inline-block;                     //Moved in btn
+//    border-radius: 100px;
+//    transition: all 0.2s;
+//    position: relative;
+ 
+//   }
+
+// .btn:hover {
+//    transform: translateY(-3px);
+//    box-shadow: 0 10px 20px rgba($color-black,0.2);                      //Moved in btn
+// }
+// .btn:active{
+//     transform: translateY(-1px);
+//     box-shadow: 0 5px 10px rgba($color-black,0.2);                      //Moved in btn
+// }
+// .btn--white{
+//    background-color: $color-white;
+//    color: $color-grey-dark;
+//    animation-name: enterAudience;                       //Moved in btn
+//    animation-duration: 1s;
+//    animation-timing-function: ease-out;
+// }
+
+// .btn::after{
+//     content: "";
+//     display:inline-block;
+//     height: 100%;
+//     width: 100%;                       //Moved in btn
+//     border-radius:100px;
+//     position: absolute;
+//     top:0;
+//     left:0;
+//     z-index:-1;
+//     transition: all 0.4s;
+// }
+
+// .btn--white::after{
+//     background-color:$color-white;                       //Moved in btn
+// }
+
+// .btn:hover::after{
+//     background-color: $color-white;
+//     transform: scaleX(1.4) scaleY(1.6);                       //Moved in btn
+//     opacity: 0; 
+    
+// }
+
